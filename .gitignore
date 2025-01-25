@@ -1,0 +1,12 @@
+# -- JavaScript Packages --
+node_modules
+node_modules/.modules.yaml
+
+# -- Website Packages --
+public
+resources
+.hugo_build.lock
+
+# -- Misc
+.vscode
+.DS_Store

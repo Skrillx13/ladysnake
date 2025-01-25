@@ -1,0 +1,22 @@
+{
+  "name": "skrillx13.github.io",
+  "version": "1.0",
+  "description": "My personal website, featuring my content, blog posts, essays, and projects. Now open sourced.",
+  "main": "index.js",
+  "scripts": {
+    "build": "hugo",
+    "serve": "hugo server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Skrillx13",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "anchor-js": "^5.0.0",
+    "bootstrap": "5.3.3",
+    "hugo-bin": "^0.139.0",
+    "sass-embedded": "^1.83.4"
+  },
+  "hugo-bin": {
+    "buildTags": "extended"
+  }
+}
