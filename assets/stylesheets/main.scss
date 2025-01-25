@@ -1,6 +1,11 @@
+// Main Imports
 @use '../../node_modules/bootstrap/scss/bootstrap.scss';
 
+// Utilities Imports
 @use 'typography';
+
+// Misc Imports
+@use 'misc';
 
 body {
     padding-left: 5%;
